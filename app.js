@@ -13,9 +13,9 @@ app.use(bodyParser.json())
 
 
 const dbConfig = {
-    user: "Tasy_Renan",
-    password: "tre#an",
-    connectString: "10.0.8.62:1521/PROD",
+    user: "<USUARIO_BANCO>",
+    password: "<SENHA_BANCO>",
+    connectString: "<STRING_CONEXAO>",
     poolMin: 10,
     poolMax: 10,
     poolIncrement: 0
