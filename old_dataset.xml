@@ -1,0 +1,138 @@
+<ans:mensagemTISS xmlns:ans="http://www.ans.gov.br/padroes/tiss/schemas">
+<receita>
+    <ans:contribuinte>
+        <cpf>111.111.111-11</cpf>
+        <rg>123456</rg>
+        <nome>Fulano</nome>
+        <data_nasc>13/06/1980</data_nasc>
+        <endereco>
+            <logradouro>Alameda</logradouro>
+            <numero>1212</numero>
+            <bairro>Limão</bairro>
+            <cep>12121-777</cep>
+            <cidade>Belém</cidade>
+            <estado>Pará</estado>
+        </endereco>
+        <contato>
+            <telefone>(91) 3181-7000</telefone>
+            <celular>(91) 98888-7777</celular>
+            <email>fulano@email.com.br</email>
+        </contato>
+        <renda>R$ 00.000,00</renda>
+        <foto>https://api.cognitive.microsoft.com/bing/v7.0/images/search</foto>
+        <conta>
+            <banco>Brasil</banco>
+            <ag>1234-5</ag>
+            <cc>7777777-7</cc>
+        </conta>
+    </ans:contribuinte>
+
+    <contribuinte>
+        <cpf>222.222.222-22</cpf>
+        <rg>123456</rg>
+        <nome>Beltrano</nome>
+        <data_nasc>14/06/1980</data_nasc>
+        <endereco>
+            <logradouro>Alameda</logradouro>
+            <numero>1212</numero>
+            <bairro>Limão</bairro>
+            <cep>12121-777</cep>
+            <cidade>Belém</cidade>
+            <estado>Pará</estado>
+        </endereco>
+        <contato>
+            <telefone>(91) 3181-7000</telefone>
+            <celular>(91) 98888-7777</celular>
+            <email>beltrano@email.com.br</email>
+        </contato>
+        <renda>R$ 00.000,00</renda>
+        <foto>./dados/logo-hsm-1.png</foto>
+        <conta>
+            <banco>Brasil</banco>
+            <ag>1234-5</ag>
+            <cc>7777777-7</cc>
+        </conta>
+    </contribuinte>
+
+    <contribuinte>
+        <cpf>333.333.333-33</cpf>
+        <rg>123456</rg>
+        <nome>Ciclano</nome>
+        <data_nasc>13/06/1980</data_nasc>
+        <endereco>
+            <logradouro>Alameda</logradouro>
+            <numero>1212</numero>
+            <bairro>Limão</bairro>
+            <cep>12121-777</cep>
+            <cidade>Belém</cidade>
+            <estado>Pará</estado>
+        </endereco>
+        <contato>
+            <telefone>(91) 3181-7000</telefone>
+            <celular>(91) 98888-7777</celular>
+            <email>ciclano@email.com.br</email>
+        </contato>
+        <renda>R$ 00.000,00</renda>
+        <foto>./dados/logo-hsm-1.png</foto>
+        <conta>
+            <banco>Brasil</banco>
+            <ag>1234-5</ag>
+            <cc>7777777-7</cc>
+        </conta>
+    </contribuinte>
+
+    <contribuinte>
+        <cpf>444.444.444-44</cpf>
+        <rg>123456</rg>
+        <nome>Lansmina</nome>
+        <data_nasc>13/06/1980</data_nasc>
+        <endereco>
+            <logradouro>Alameda</logradouro>
+            <numero>1212</numero>
+            <bairro>Limão</bairro>
+            <cep>12121-777</cep>
+            <cidade>Belém</cidade>
+            <estado>Pará</estado>
+        </endereco>
+        <contato>
+            <telefone>(91) 3181-7000</telefone>
+            <celular>(91) 98888-7777</celular>
+            <email>lansmina@email.com.br</email>
+        </contato>
+        <renda>R$ 00.000,00</renda>
+        <foto>./dados/logo-hsm-1.png</foto>
+        <conta>
+            <banco>Brasil</banco>
+            <ag>1234-5</ag>
+            <cc>7777777-7</cc>
+        </conta>
+    </contribuinte>
+
+    <contribuinte>
+        <cpf>555.555.555-55</cpf>
+        <rg>123456</rg>
+        <nome>Xsjado</nome>
+        <data_nasc>13/06/1980</data_nasc>
+        <endereco>
+            <logradouro>Alameda</logradouro>
+            <numero>1212</numero>
+            <bairro>Limão</bairro>
+            <cep>12121-777</cep>
+            <cidade>Belém</cidade>
+            <estado>Pará</estado>
+        </endereco>
+        <contato>
+            <telefone>(91) 3181-7000</telefone>
+            <celular>(91) 98888-7777</celular>
+            <email>xsjado@email.com.br</email>
+        </contato>
+        <renda>R$ 00.000,00</renda>
+        <foto>./dados/logo-hsm-1.png</foto>
+        <conta>
+            <banco>Brasil</banco>
+            <ag>1234-5</ag>
+            <cc>7777777-7</cc>
+        </conta>
+    </contribuinte>
+</receita>
+</ans:mensagemTISS>
