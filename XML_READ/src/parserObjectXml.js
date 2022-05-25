@@ -70,9 +70,34 @@ const getRelacaoGuiasArrays = function (array) {
 
 const getDetalhesGuia = function (object) {
     const dataRealizacao = arrayToObject(object[`${ans}dataRealizacao`]);
+    const rootProcedimento = arrayToObject(object[`${ans}procedimento`])
+    const procedimento = {
+        codigoTabela: arrayToObject(rootProcedimento[`${ans}codigoTabela`]),
+        codigoProcedimento: arrayToObject(rootProcedimento[`${ans}codigoProcedimento`]),
+        descricaoProcedimento: arrayToObject(rootProcedimento[`${ans}descricaoProcedimento`])
+    }
     const valorInformado = arrayToObject(object[`${ans}valorInformado`]);
+    const qtdExecutada = arrayToObject(object[`${ans}qtdExecutada`]);
+    const valorProcessado = arrayToObject(object[`${ans}valorProcessado`]);
+    const valorLiberado = arrayToObject(object[`${ans}valorLiberado`]);
 
-    return { dataRealizacao, valorInformado }
+    const rootRelacaoGlosa = arrayToObject(object[`${ans}relacaoGlosa`])
+
+    let relacaoGlosa = [];
+    if(rootRelacaoGlosa != undefined) {
+        relacaoGlosa = {
+            valorGlosa: arrayToObject(rootRelacaoGlosa[`${ans}valorGlosa`]),
+            tipoGlosa: arrayToObject(rootRelacaoGlosa[`${ans}tipoGlosa`])
+        }
+    } else {
+        relacaoGlosa = {
+            valorGlosa: arrayToObject([`Sem glosa`]),
+            tipoGlosa: arrayToObject([`Sem glosa`])
+        }
+    }
+     
+    
+    return { dataRealizacao, procedimento, valorInformado, qtdExecutada, valorProcessado, valorLiberado, relacaoGlosa }
 }
 
 
