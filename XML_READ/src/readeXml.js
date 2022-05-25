@@ -39,14 +39,16 @@ async function getDataXml() {
     const dadosProtocolo = getDadosProtocolo(demonstrativosRetorno[`${ans}demonstrativoAnaliseConta`]);
     const relacaoGuiasArrays = getRelacaoGuiasArrays(dadosProtocolo.relacaoGuiasArray);
     const dadosGuiasArray = getDadosGuiasArray(relacaoGuiasArrays);
-    const detalhesGuia = getDetalhesGuia(dadosGuiasArray);
     
-
+    for (const iterator of dadosGuiasArray) {
+        console.log(iterator.detalhesGuia)
+    }
 
     // for (const iterator of getListaGuias(cabecalho[`${ans}DetalhesGuia`])) {
     //     iterator
     // }
-    return { origem, identificacaoTransacao, padrao, loginSenhaPrestador, destino, demonstrativosRetorno, relacaoGuiasArrays, dadosGuiasArray, detalhesGuia }
+    return { origem, identificacaoTransacao, padrao, loginSenhaPrestador, destino, demonstrativosRetorno, relacaoGuiasArrays, dadosGuiasArray }
+    //return "OK";
 }
 
 async function readXml(fileName) {
